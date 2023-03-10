@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            4) Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
+            <br>
+            SP – R$67.836,43 <br>
+            RJ – R$36.678,66 <br>
+            MG – R$29.229,88 <br>
+            ES – R$27.165,48
+            Outros – R$19.849,53 <br>
+            Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve
+            dentro do valor total mensal da distribuidora.
+        </p>
+        <table id="data-table">
+            <thead> <tr> Tabela de Particição dos estados </tr></thead>
+            <tr>
+                <th>Estado</th>
+                <th>Faturamento</th>
+                <th> Representação(%)</th>
+            </tr>
+
+
+        </table>
+        <p>Gráfico referente a participação dos estados</p>
+        <canvas id="grafico" height="250px"  ></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
+    <script src="./percentualEstadosJS.js"></script>
+</body>
+
+</html>
